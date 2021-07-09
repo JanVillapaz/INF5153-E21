@@ -9,3 +9,7 @@ The instances of a class are referred to as its objects. For example, lh1, the L
 An object always has a certain state. A state is expressed by the values of its attributes. For example, a lecture hall can have the state occupied for free. An object also displays behavior. The behavior of an object is described by the set of its operations. Operations are triggered by sending a message. 
 
 1.3.3 Encapsulation
+
+Encapsulation is the protection against unauthorized access to the internal state of an object via a uniquely defined interface. Different levels of visibility of the interfaces help to define different access authorizations. Java, for example, has the explicit visibility markers `public`, `private`, and `protected`, which respectively permit access for all, only within the object, and only for members of the same class, its subclasses, and of the same package.
+
+1.3.4 Messages
