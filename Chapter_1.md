@@ -4,3 +4,8 @@ In many object-oriented approaches, it is possible to define classes that descri
 
 1.3.2 Objects
 
+The instances of a class are referred to as its objects. For example, lh1, the Lecture Hall 1 of the Vienna University of Technology, is a concrete instance of the class LectureHall. In particular, an object is distinguished by the fact that it has its own identity, that is, different instances of a class can be uniquely identified. For example, the beamer in Lecture Hall 1 is a different object to the beamer in Lecture Hall 2, even if the devices are of the same type. Here we refer to identical devices but not the same device. The situation for concrete values of data types is different; the number 1, which is a concrete value of data type Integer, does not have a distinguishable identity.
+
+An object always has a certain state. A state is expressed by the values of its attributes. For example, a lecture hall can have the state occupied for free. An object also displays behavior. The behavior of an object is described by the set of its operations. Operations are triggered by sending a message. 
+
+1.3.3 Encapsulation
